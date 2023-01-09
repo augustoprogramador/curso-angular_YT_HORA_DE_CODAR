@@ -10,6 +10,7 @@ import { RenderizacaoCondicionalComponent } from './components/renderizacao-cond
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EmissorComponent } from './components/emissor/emissor.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
     RenderizacaoCondicionalComponent,
     EventosComponent,
     EmissorComponent,
-    ChangeNumberComponent
+    ChangeNumberComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule,
