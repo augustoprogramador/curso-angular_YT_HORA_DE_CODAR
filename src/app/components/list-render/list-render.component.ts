@@ -23,6 +23,7 @@ export class ListRenderComponent implements OnInit {
 	}
 
 	public removeAnimal(animal: Animal): void {
+		// REFATORAR PARA USAR OBSERVABLE POSTERIORMENTE
 		this.animals = this.animals.filter((a) => animal.name !== a.name);
 		this.listService.remove(animal.id).subscribe();
 	}
